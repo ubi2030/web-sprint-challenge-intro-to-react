@@ -1,17 +1,18 @@
 import React, { useState } from 'react';
-import App from './App';
-import { setupWorker } from "msw";
-import { handlers } from "./handlers";
-import { setupServer } from "msw/node";
-import { rest } from "msw";
-import './App.css';
+import '../App.css';
+import styled from 'styled-components';
 
 const Character = (props) => {
-    const []
+    console.log(props);
+  
 
 return (
-    data.name
-  );
+    <div className = 'character'>
+    {/* <App data.map () => {
+        {data.name}: {data.birth_year}
+    } */}
+</div>
+);
 }
 
 export default Character;
