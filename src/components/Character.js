@@ -8,9 +8,8 @@ const Character = (props) => {
 
 return (
     <div className = 'character'>
-    {/* <App data.map () => {
-        {data.name}: {data.birth_year}
-    } */}
+        {props.data.name}
+        {props.data.birth_year}
 </div>
 );
 }

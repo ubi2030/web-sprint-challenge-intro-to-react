@@ -19,10 +19,13 @@ const App = (props) => {
        })
        .catch(err => console.error(err))
   }, [])
-
+console.log(data);
   return (
     <div className="App">
       <h1 className="Header">Characters:</h1>
+      { data.map(data => {
+      return <Character data={data}/>
+      })}
     </div>
   );
 }
